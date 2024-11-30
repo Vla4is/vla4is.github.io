@@ -1,0 +1,93 @@
+body {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    color: rgba(22,79,215,255);
+
+}
+.blue-text {
+    background-color: white;
+}
+.darkblue-bg {
+    background-color: rgba(11,24,54,255);
+    color: white;
+}
+.height-30 {
+    min-height: 30vh;
+
+}
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-1 {
+    padding: 10px;
+}
+.star {
+    width:5vw;
+    height: auto;
+}
+.only-center {
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+}
+h1 {
+    font-size: 58px;
+    margin: 10px; 
+    cursor: default;
+}
+
+.profile-photo {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    min-width: 40vw;
+    max-width: 99vw;
+    height: auto;
+}
+.white-bg-body {
+    width: 70vw;
+    background-color: white;
+    font-size: 35px;
+    padding: 5%;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    padding: 1%;
+}
+a {
+    text-decoration: none; 
+    color: inherit; /* Inherits the color from the parent element */
+    outline: none;
+}
+
+.red-text {
+    color: rgba(190,11,50,255);
+    
+}
+
+@media (max-width: 900px) {
+    .white-bg-body {
+        width: auto;
+        margin: 0;
+    }
+}
+p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
