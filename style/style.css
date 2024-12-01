@@ -102,6 +102,10 @@ p{
     font-weight: 500;
     font-style: normal;
 }
+.video {
+    aspect-ratio: 16/9; width: 70%;
+    margin-bottom: 10px;
+}
 .signature {width: 25vw; height: auto;}
 
 @media (max-width: 900px) {
@@ -127,4 +131,5 @@ p{
     .signature {
 width: 55vw;
     }
+    .video {width: 100%;}
 }
