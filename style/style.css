@@ -50,6 +50,17 @@ h1 {
 
     height: auto;
 }
+/* .white-bg-body {
+    width: 70vw;
+    background-color: white;
+    font-size: 35px;
+    padding: 5%;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+} */
+
 .white-bg-body {
     width: 70vw;
     background-color: white;
@@ -59,6 +70,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     cursor: default;
+    background-image: url('/img/bg.png'); /* URL of the background image */
+    background-repeat: no-repeat; /* Ensures the image is displayed only once */
+    background-position: center; /* Centers the image */
+    background-size: 60vw auto; /* Adjust the width and height of the image */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    opacity: 0.8; /* Controls the transparency of the entire element */
 }
 
 .footer {
@@ -83,6 +100,7 @@ a {
     .white-bg-body {
         width: auto;
         margin: 0;
+        background-size: 90vw auto;
     }
     .profile-photo {
         width: 100vw;
