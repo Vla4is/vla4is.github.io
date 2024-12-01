@@ -116,6 +116,9 @@ a {
     .white-bg-body {
         font-size: 25px;
     }
+    .signature {
+width: 30vw;
+    }
 }
 p{
     font-family: "Oswald", sans-serif;
