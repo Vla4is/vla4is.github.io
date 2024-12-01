@@ -96,6 +96,14 @@ a {
     
 }
 
+p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.signature {width: 15vw; height: auto;}
+
 @media (max-width: 900px) {
     .white-bg-body {
         width: auto;
@@ -117,13 +125,6 @@ a {
         font-size: 25px;
     }
     .signature {
-width: 30vw;
+width: 35vw;
     }
 }
-p{
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-}
-.signature {width: 15vw; height: auto;}
