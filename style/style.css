@@ -65,7 +65,8 @@ h1 {
     width: 70vw;
     background-color: white;
     font-size: 35px;
-    padding: 5%;
+    padding: 3% 0 3% 0;
+
     margin: 10px;
     flex-direction: column;
     align-items: center;
@@ -101,10 +102,23 @@ p{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    padding: 0 3% 0 3%;
 }
 .video {
     aspect-ratio: 16/9; width: 70%;
     margin-bottom: 10px;
+}
+.lgbtq {
+    
+    background: linear-gradient(
+        to bottom,
+        rgba(229, 0, 0, 0.3) 0%,
+        rgba(255, 141, 0, 0.3) 16.67%,
+        rgba(255, 238, 0, 0.3) 33.33%,
+        rgba(2, 129, 33, 0.3) 50%,
+        rgba(0, 76, 255, 0.3) 66.67%,
+        rgba(119, 0, 136, 0.3) 83.33%
+      );
 }
 .signature {width: 25vw; height: auto;}
 
